@@ -47,9 +47,9 @@ body {
 
 .opcoes{
     text-align: center;
-    padding: 1%;
-    font-size: 40px;
-    line-height: 50px;
+    padding: 2%;
+    font-size: 4vmax;
+    line-height: 8vh;
 }
 
 .opcoes a{
