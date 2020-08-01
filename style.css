@@ -5,13 +5,13 @@
     --color-darkgray: rgb(61, 59, 60);
     */
 
-    --color-darkgray: rgb(207, 191, 198);
+    --color-fundo: rgb(233, 227, 230);
     --color-destaqueescuro: rgb(56, 54, 54);
-    --color-destaque: rgb(177, 152, 152);
+    --color-destaque: rgb(209, 200, 200);
 }
 
 body {
-    background: var(--color-darkgray);
+    background: var(--color-fundo);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
     margin-right: auto;
     width: 20%;
     margin-top: 2%;
-    border: 2px solid var(--color-destaque);
+    border: 3px solid var(--color-destaque);
 }
 
 #user {
