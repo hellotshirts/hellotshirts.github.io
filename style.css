@@ -22,12 +22,15 @@ body {
     margin-right: auto;
     width: 20%;
     margin-top: 2%;
+    margin-bottom: 5%;
+    /*
     border: 3px solid var(--color-destaque);
+    */
 }
 
 #user {
     text-align: center;
-    margin-top: 2%;
+    margin: 3%;
 }
 
 #user a{
@@ -40,4 +43,22 @@ body {
 #user a span {
     
     text-decoration: underline;
+}
+
+.opcoes{
+    text-align: center;
+    padding: 1%;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.opcoes a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(134, 122, 134);
+}
+
+.opcoes a:hover {
+    transition: 200ms;
+    color: violet;
 }
