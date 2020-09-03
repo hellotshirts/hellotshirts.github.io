@@ -62,3 +62,11 @@ body {
     transition: 200ms;
     color: violet;
 }
+
+@media (max-width: 420px) {
+    #logo {
+        width: 50%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
